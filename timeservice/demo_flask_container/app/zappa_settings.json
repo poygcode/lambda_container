@@ -1,0 +1,12 @@
+{
+    "container_lambda_flask": {
+        "app_function": "app.app",
+        "project_name": "demo",
+        "s3_bucket": "bucket name",
+        "environment_variables": {
+            "EXAMPLE_ENV_VAR": "prod"
+        },
+
+        "lambda_description": ""
+    }
+}
